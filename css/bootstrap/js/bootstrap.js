@@ -643,7 +643,7 @@
       // Public
       _proto.next = function next() {
         if (!this._isSliding) {
-          this._slide(Direction.NEXT);
+          this._slide(Direction.PREV);
         }
       };
 
@@ -657,7 +657,7 @@
 
       _proto.prev = function prev() {
         if (!this._isSliding) {
-          this._slide(Direction.PREV);
+          this._slide(Direction.NEXT);
         }
       };
 
@@ -816,7 +816,7 @@
           return activeElement;
         }
 
-        var delta = direction === Direction.PREV ? -1 : 1;
+        var delta = direction === Direction.PREV ? 1 : -1;
         var itemIndex = (activeIndex + delta) % this._items.length;
         return itemIndex === -1 ? this._items[this._items.length - 1] : this._items[itemIndex];
       };

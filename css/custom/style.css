@@ -1,6 +1,6 @@
 body{
-	height: 100%;
-  	margin: 0;
+	/*height: 100%;
+  	margin: 0;*/
 	background-color: #E5E5E5;
 	font-family: "nunito sans";
 	/*padding-bottom: 20%;*/
@@ -23,6 +23,7 @@ height:100%;
 width:100%;
 position:absolute;
 }
+
 
 .lora{
 	font-family: "lora";
@@ -366,6 +367,18 @@ position:absolute;
 	height: 120px;
 	margin-bottom: -120px;
 	}
+	/*.carousel {
+	  margin-left: 50px;
+	  margin-right: 50px;
+	}
+
+	.carousel-control-prev {
+	  margin-left: -25px;
+	}
+
+	.carousel-control-next {
+	  margin-right: -25px;
+	}*/
 		
 }
 
@@ -592,5 +605,17 @@ position:absolute;
 		right: 100px;
 		top: 250px;
 	}
-	
+	/*.carousel {
+	  margin-left: 50px;
+	  margin-right: 50px;
+	}
+
+	.carousel-control-prev {
+	  margin-left: -25px;
+	}
+
+	.carousel-control-next {
+	  margin-right: -25px;
+	}*/
+		
 }
