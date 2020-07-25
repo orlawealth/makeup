@@ -4,7 +4,7 @@ body{
 	background-color: #E5E5E5;
 	font-family: "nunito sans";
 	/*padding-bottom: 20%;*/
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 .test{
    outline: 1px solid red;
@@ -353,9 +353,10 @@ position:absolute;
 	}
 	.zara{
 	position: relative;
-	top: -850px;
+	top: -950px;
 	height: 120px;
 	margin-bottom: -120px;
+	/*height: auto;*/
 	}
 	.contact-input {
 	  box-sizing: border-box;
