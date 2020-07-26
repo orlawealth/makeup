@@ -1,6 +1,6 @@
-body{
-	/*height: 100%;*/
-  	margin: 0;
+body,html{
+	/*height: 100%;
+  	margin: 0;*/
 	background-color: #E5E5E5;
 	font-family: "nunito sans";
 	/*padding-bottom: 20%;*/
@@ -9,13 +9,13 @@ body{
 .test{
    outline: 1px solid red;
 }
+* {box-sizing: border-box;
+}
 .absolut{
 	position: fixed;
 	width: 100%;
 }
-.hid{
-	overflow: hidden;
-}
+
 .sticky {
   position: fixed;
   top: 0;

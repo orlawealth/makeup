@@ -19,7 +19,23 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 	<style type="text/css">
-		
+		.bg{
+			background-image: url("img/desktop.png");
+			 /* Full height */
+			  min-height: 650px; 
+			  /* Center and scale the image nicely */
+			  background-position: right top;
+			  background-repeat: no-repeat;
+			   position: relative;
+		}
+		.contain {
+		  position: absolute;
+		  margin: 20px;
+		  width: auto;
+		}
+		.navbar{
+			overflow: hidden;
+		}
 	</style>
 </head>
 <body>
@@ -59,7 +75,7 @@
    </div>
    	
    	<!-- small screen -->
-	<header class="containe mt-1 d-block d-lg-none">
+	<header class=" mt-1 d-block d-lg-none">
 		<nav class="navbar navbar-expand-lg absolut" id="navbar" >
 			  <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.png"></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" >
@@ -97,7 +113,7 @@
 	</div>
 
 	<!-- large screen -->
-	<div class="container d-none d-lg-block">
+	<div class=" container d-none ">
 		<div class="row">
 			<div class="offset-lg-4 col-lg-8 ">
 				<img class="img-fluid" src="img/desktop.png">
@@ -106,37 +122,38 @@
 		</div>
 		
 	</div>
-	<!-- header start -->
-	<header class="container mt-lg-3 head-over d-none d-lg-block">
-		<nav class="navbar navbar-expand-lg ">
-			  <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.png"></a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" >
-			    <span class="navbar-toggler-icon  h1"><i class="fa fa-bars"></i></span>
-			  </button>
+	<!-- large screen -->
+	<div class="bg d-none d-lg-block">
+		<!-- header start -->
+		<header class="container   d-none d-lg-block">
+			<nav class="navbar navbar-expand-lg ">
+				  <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.png"></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" >
+				    <span class="navbar-toggler-icon  h1"><i class="fa fa-bars"></i></span>
+				  </button>
 
-			  <div id="content" class="collapse navbar-collapse" >
-			    <ul class="nav navbar-nav mleft-27">
-			      <li class="nav-item ">
-			        <a class="nav-link active" href="#">Home </a>
-			      </li>
-			      <li class="nav-item ">
-			        <a class="nav-link" href="#">About </a>
-			      </li>
-			      <li class="nav-item ">
-			        <a class="nav-link" href="#">Service </a>
-			      </li>
-			      
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Blog</a>
-			      </li>
-			       
-			      <li class="nav-item ">
-			        <a class="nav-link" href="#">Contact</a>
-			      </li>
-			    </ul>
-			  </div>
-		</nav>
-			<!-- large screen -->
+				  <div id="content" class="collapse navbar-collapse" >
+				    <ul class="nav navbar-nav mleft-27">
+				      <li class="nav-item ">
+				        <a class="nav-link active" href="#">Home </a>
+				      </li>
+				      <li class="nav-item ">
+				        <a class="nav-link" href="#">About </a>
+				      </li>
+				      <li class="nav-item ">
+				        <a class="nav-link" href="#">Service </a>
+				      </li>
+				      
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Blog</a>
+				      </li>
+				       
+				      <li class="nav-item ">
+				        <a class="nav-link" href="#">Contact</a>
+				      </li>
+				    </ul>
+				  </div>
+			</nav>
 			<div class="row d-none d-lg-block">
 				<div class="col-lg-5 col-md-7  col-sm-9 col-9 mtop-lg-12 mtop-m" >
 					<p class="px-36 lora " >Let’s make you stand out And unique </p>
@@ -145,7 +162,12 @@
 				</div>
 			
 			</div>
-	</header>
+		</header>
+
+
+	</div>
+			
+	
 	<!-- small screen -->
 	<div class="container d-block d-lg-none">
 		<div class="row">
@@ -161,7 +183,7 @@
 	<!-- content starts -->
 	<!-- landing page -->
 
-	<div class="container mtop-8 mbottom-8">
+	<div class="container mt-5 mbottom-8">
 			<div class="row text-center text-dark">
 				<div class="offset-sm-2 col-sm-2 offset-2 col-2 p-3  bg-light" data-aos="flip-left" >
 					<p class="after-book">1000+</p>
