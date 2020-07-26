@@ -13,6 +13,9 @@ body{
 	position: fixed;
 	width: 100%;
 }
+.hid{
+	overflow: hidden;
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -389,25 +392,13 @@ position:absolute;
 	margin-bottom: -120px;
 	/*height: auto;*/
 	}
-	.contact-input {
-	  box-sizing: border-box;
-	  width: 100%;
-	  padding: 26px 50px !important;
-	  /*margin: 8px 0;*/
-	  background: #E5E5E5;
-	  /*border: none;*/
-	  -webkit-transition: 0.5s;
-	  transition: 0.5s;
-	  outline: none;
-	}
+	
 	.pad-extop{
 	width: 323px;
 	height: auto;
 	padding: 0px 50px;
 	}
 	.contact-input {
-	  box-sizing: border-box;
-	  width: 100%;
 	  /*margin: 8px 0;*/
 	  background: #E5E5E5;
 	  /*border: none;*/
