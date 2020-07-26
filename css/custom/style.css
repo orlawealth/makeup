@@ -9,6 +9,14 @@ body{
 .test{
    outline: 1px solid red;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 85%;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 	/*header starts*/
 	.map-container-6{
 overflow:hidden;
@@ -298,9 +306,31 @@ position:absolute;
 	  width: auto;
 
 	}
+@media (max-width: 1199px) {
+	.head-over{
+	position: relative;
+	top: -400px;
+	height: 120px;
+	margin-bottom: -120px;
+	}
 
+}
+@media (min-width: 1200px) {
+	.head-over{
+	position: relative;
+	top: -470px;
+	height: 120px;
+	margin-bottom: -120px;
+	}
+}	
 	/*small screen*/
 @media (max-width: 992px) {
+	.head-over{
+	position: relative;
+	top: -1105px;
+	height: 120px;
+	margin-bottom: -120px;
+	}
 	.after-book{
 		font-family: "lora";
 		font-size: 14px;
@@ -329,7 +359,7 @@ position:absolute;
 	border: 2px solid #fff ;
 	background-color:  #FF922C; 
 	color: #363A3B; 
-}
+	}
 	.px-20-lg{
 	font-size: 16px;
 	}
@@ -382,6 +412,22 @@ position:absolute;
 	  margin-right: -25px;
 	}*/
 		
+}
+@media (max-width: 882px) {
+	.head-over{
+	position: relative;
+	top: -1005px;
+	height: 120px;
+	margin-bottom: -120px;
+	}
+}
+@media (max-width: 800px) {
+	.head-over{
+	position: relative;
+	top: -905px;
+	height: 120px;
+	margin-bottom: -120px;
+	}
 }
 
 @media (max-width: 576px) {
@@ -529,6 +575,7 @@ position:absolute;
 }
 /* large screens */
 @media (min-width: 992px) {
+	
 	.mtop-lg-12{
 	margin-top: 12%;
 	}
