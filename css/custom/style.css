@@ -234,11 +234,7 @@ position:absolute;
 .bg-white{
 	background-color: #fff;
 }
-.pad-extop{
-	width: 514px;
-	height: 696px;
-	padding: 0px 50px;
-}
+
 #googleMap{
 	z-index: 1;
 }
@@ -396,14 +392,12 @@ position:absolute;
 	.pad-extop{
 	width: 323px;
 	height: auto;
-	padding: 0px 50px;
+	padding: 30px 30px 15px 30px;
 	}
 	.contact-input {
-	  /*margin: 8px 0;*/
+	  
 	  background: #E5E5E5;
-	  /*border: none;*/
-	  -webkit-transition: 0.5s;
-	  transition: 0.5s;
+	  
 	  outline: none;
 	}
 	/*.carousel {
@@ -646,17 +640,23 @@ position:absolute;
 		right: 100px;
 		top: 250px;
 	}
+	
+	/*.pad-extop{
+	width: 323px;
+	height: auto;
+	padding: 30px 30px 15px 30px;
+	}*/
+	.pad-extop{
+	width: 514px;
+	height: 606px;
+	padding: 0px 40px;
+	}
 	.contact-input {
-	  box-sizing: border-box;
-	  width: 100%;
-	  padding: 26px 50px !important;
-	  /*margin: 8px 0;*/
+	  
 	  background: rgba(255, 146, 44, 0.1);
-	  /*border: none;*/
-	  -webkit-transition: 0.5s;
-	  transition: 0.5s;
+	  
 	  outline: none;
-	}	
+	}
 	/*.carousel {
 	  margin-left: 50px;
 	  margin-right: 50px;
