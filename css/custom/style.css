@@ -1,6 +1,6 @@
 body{
-	/*height: 100%;
-  	margin: 0;*/
+	/*height: 100%;*/
+  	margin: 0;
 	background-color: #E5E5E5;
 	font-family: "nunito sans";
 	/*padding-bottom: 20%;*/
@@ -9,10 +9,14 @@ body{
 .test{
    outline: 1px solid red;
 }
+.absolut{
+	position: fixed;
+	width: 100%;
+}
 .sticky {
   position: fixed;
   top: 0;
-  width: 85%;
+  width: 100%;
   background-color: #fff;
   z-index: 2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -31,7 +35,9 @@ height:100%;
 width:100%;
 position:absolute;
 }
-
+#navbar {
+  overflow: hidden;
+}
 
 .lora{
 	font-family: "lora";
@@ -226,8 +232,8 @@ position:absolute;
 	background-color: #fff;
 }
 .pad-extop{
-	width: 500px;
-	height: 650px;
+	width: 514px;
+	height: 696px;
 	padding: 0px 50px;
 }
 #googleMap{
@@ -325,12 +331,7 @@ position:absolute;
 }	
 	/*small screen*/
 @media (max-width: 992px) {
-	.head-over{
-	position: relative;
-	top: -1105px;
-	height: 120px;
-	margin-bottom: -120px;
-	}
+	
 	.after-book{
 		font-family: "lora";
 		font-size: 14px;
@@ -399,6 +400,21 @@ position:absolute;
 	  transition: 0.5s;
 	  outline: none;
 	}
+	.pad-extop{
+	width: 323px;
+	height: auto;
+	padding: 0px 50px;
+	}
+	.contact-input {
+	  box-sizing: border-box;
+	  width: 100%;
+	  /*margin: 8px 0;*/
+	  background: #E5E5E5;
+	  /*border: none;*/
+	  -webkit-transition: 0.5s;
+	  transition: 0.5s;
+	  outline: none;
+	}
 	/*.carousel {
 	  margin-left: 50px;
 	  margin-right: 50px;
@@ -413,22 +429,7 @@ position:absolute;
 	}*/
 		
 }
-@media (max-width: 882px) {
-	.head-over{
-	position: relative;
-	top: -1005px;
-	height: 120px;
-	margin-bottom: -120px;
-	}
-}
-@media (max-width: 800px) {
-	.head-over{
-	position: relative;
-	top: -905px;
-	height: 120px;
-	margin-bottom: -120px;
-	}
-}
+
 
 @media (max-width: 576px) {
 	.mtop-sm{
