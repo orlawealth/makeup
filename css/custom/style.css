@@ -24,6 +24,9 @@ body,html{
   z-index: 2;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.text_center{
+		text-align: center;
+	}
 	/*header starts*/
 	.map-container-6{
 overflow:hidden;
@@ -133,6 +136,9 @@ position:absolute;
 }
 .mtop-10{
 	margin-top: 10%;
+}
+.mtop-12{
+	margin-top: 12%;
 }
 .mtop-15{
 	margin-top: 15%;
@@ -637,7 +643,7 @@ position:absolute;
 	}
 	.beside{
 		position: relative;
-		right: 100px;
+		right: 240px;
 		top: 250px;
 	}
 	

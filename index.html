@@ -33,9 +33,31 @@
 		  margin: 20px;
 		  width: auto;
 		}
-		.navbar{
+		.hid{
 			overflow: hidden;
 		}
+		.bg-service{
+			background-image: url("img/service-imgn.png");
+			 /* Full height */
+			  min-height: 910px;
+
+			  /* Center and scale the image nicely */
+			  background-position: left center;
+			  background-repeat: no-repeat;
+			   position: relative;
+		}
+		.bg-service-desktop{
+			background-image: url("img/service_mobile.png");
+			 /* Full height */
+			  min-height: 960px;
+
+			  /* Center and scale the image nicely */
+			  background-position: left center;
+			  background-repeat: no-repeat;
+			   position: relative;
+		}
+		
+		
 	</style>
 </head>
 <body>
@@ -126,7 +148,7 @@
 	<div class="bg d-none d-lg-block">
 		<!-- header start -->
 		<header class="container   d-none d-lg-block">
-			<nav class="navbar navbar-expand-lg ">
+			<nav class="navbar navbar-expand-lg hid">
 				  <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.png"></a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content" >
 				    <span class="navbar-toggler-icon  h1"><i class="fa fa-bars"></i></span>
@@ -226,95 +248,94 @@
 	<!-- Service section -->
 	<!-- large screen  -->
 	<div class="d-none d-lg-block">
-		<div class="container">
-			<div class="row ">	
-				<div class="col-lg-8">
-					<img src="img/service-img8.png">
-
-					<div class=" zara">	
-				    	<div class="offset-lg-1"> <!-- Remove this and put row below service in a container -->
-							<p class="mini-header">Our Services</p>
-							<h5>We go above and beyond to serve </h5>
-							<div class="row pt-5">	
-								<div class="col-lg-4" data-aos="zoom-in-up">
-									<img class="img-fluid" src="img/service-1.png" style="width:130px;">
-									<p class="mt-2">Children Makeup</p>
-								</div>
-								<div class="offset-lg-1 col-lg-4" data-aos="zoom-in-up">
-									<img class="img-fluid" src="img/service-2.png" style="width:130px;">
-									<p class="mt-2">Hair Makeup</p>
-								</div>
+		<div class="bg-service">	
+			<div class="container">
+				<div class="row hid">	
+					<div class="col-lg-9 mtop-12">
+					    	
+						<p class="mini-header">Our Services</p>
+						<h5>We go above and beyond to serve </h5>
+						<div class="row pt-4">	
+							<div class="col-lg-4  " data-aos="zoom-in-up">
+								<img class="img-fluid" src="img/service-1.png" style="">
+								<p class="ml-4">Children Makeup</p>
 							</div>
-							<div class="row pt-5">	
-								<div class="col-lg-4" data-aos="fade-down">
-									<img class="img-fluid" src="img/service-3.png" style="width:130px;">
-									<p class="mt-2">Children Makeup</p>
-								</div>
-								<div class="offset-lg-1 col-lg-4" data-aos="fade-down">
-									<img class="img-fluid" src="img/service-4.png" style="width:130px;">
-									<p class="mt-2">Hair Makeup</p>
-								</div>
-							</div>
-							<div class="mt-4">	
-							<a href="#" class="d-inline-block content-link" data-aos="zoom-in-right">View All<i class="d-inline-block ml-4 fa fa-arrow-right icon-orange"></i>
-							</a> 
+							<div class="col-lg-4  " data-aos="zoom-in-up">
+								<img class="img-fluid" src="img/service-2.png" style="">
+								<p class="ml-4">Hair Makeup</p>
 							</div>
 						</div>
+						<div class="row pt-4 ">	
+							<div class="col-lg-4 " data-aos="fade-down">
+								<img class="img-fluid" src="img/service-3.png" style="">
+								<p class="ml-4">Children Makeup</p>
+							</div>
+							<div class=" col-lg-4 " data-aos="fade-down">
+								<img class="img-fluid" src="img/service-4.png" style="">
+								<p class="ml-4">Hair Makeup</p>
+							</div>
+						</div>
+						<div class="mt-4 ">	
+						<a href="#" class="d-inline-block content-link" data-aos="zoom-in-right">View All<i class="d-inline-block ml-4 fa fa-arrow-right icon-orange"></i>
+						</a> 
+						</div>
+							
+					</div>
+					<div class="col-lg-3  beside text-center" data-aos="zoom-in-left">	
+						<img class="img-fluid" src="img/win-img.png" >
+						<p class="mt-2">Award Winning Makeup</p>
 					</div>
 				</div>
-				<div class="col-lg-4 beside text-center" data-aos="zoom-in-left">	
-					<img class="img-fluid" src="img/win-img.png" >
-					<p class="mt-2">Award Winning Makeup</p>
-				</div>
 			</div>
+
 		</div>
 	</div>
 	
 	<!-- small screen -->
 	<div class="d-block d-lg-none">
-		<div class=" container">	
-			<div class="row ">	
-				<div class="col-12">
-					<img class="" src="img/service_mobile.png">
-					<div class=" zara">	
-				    	<div class="offset-1 "> <!-- Remove this and put row below service in a container -->
-							<p class="mini-header">Our Services</p>
-							<h5>We go above and beyond to serve </h5>
-							<div class="offset-1">	
-								<div class="pt-5" data-aos="fade-down">
-									<img class="img-fluid" src="img/service-1.png" style="width:130px;">
-									<p class="mt-2  ml-2">Children Makeup</p>
-								</div>
-								<div class="pt-5" data-aos="fade-down">
-									<img class="img-fluid" src="img/service-2.png" style="width:130px;">
-									<p class="mt-2 ml-3">Hair Makeup</p>
-								</div>
-								<div class="pt-5" data-aos="fade-down">
-									<img class="img-fluid" src="img/service-4.png" style="width:130px;">
-									<p class="mt-2  ml-3">Facial Makeup</p>
-								</div>
-							</div>
-							
-						</div>
-						<div class="offset-1 mt-4">	
-							<a href="#" class="d-inline-block content-link" data-aos="zoom-in-right" >View All<i class="d-inline-block ml-4 fa fa-arrow-right icon-orange"></i>
-							</a> 
-						</div>
+		<div class="bg-service-desktop">	
+			<div class=" container hid">	
+				
+				<p class="mini-header">Our Services</p>
+				<h5>We go above and beyond to serve </h5>
+				<div class="offset-1">	
+					<div class="pt-5" data-aos="fade-down">
+						<img class="img-fluid" src="img/service-1.png" style="width:130px;">
+						<p class="mt-2  ml-2">Children Makeup</p>
+					</div>
+					<div class="pt-5" data-aos="fade-down">
+						<img class="img-fluid" src="img/service-2.png" style="width:130px;">
+						<p class="mt-2 ml-3">Hair Makeup</p>
+					</div>
+					<div class="pt-5" data-aos="fade-down">
+						<img class="img-fluid" src="img/service-4.png" style="width:130px;">
+						<p class="mt-2  ml-3">Facial Makeup</p>
 					</div>
 				</div>
-			</div>
+				
+			
+				<div class=" mt-4">	
+					<a href="#" class="d-inline-block content-link" data-aos="zoom-in-right" >View All<i class="d-inline-block ml-4 fa fa-arrow-right icon-orange"></i>
+					</a> 
+				</div>
+				
+					
+			</div>	
+
+		</div>
+		<div class="container">	
 			<div class="row mb-5">	
 				<div class="col-12 text-center">	
 					<img class="img-fluid" src="img/win-img.png" >
 					<p class="mt-2">Award Winning Makeup</p>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 
 	<!-- Project Section -->
 	<!-- large screen -->
-	<div class="container mtop-10 mb-5 d-none d-lg-block ">	
+	<div class="container mtop-7 mb-5 d-none d-lg-block ">	
 		<div class="text-center">	
 			<p class="mini-header">Projects</p>
 			<h5>Our Award Winning Projects</h5>
